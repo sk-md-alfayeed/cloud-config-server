@@ -21,3 +21,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://booking-management/booking
+  checkin-management:
+    endpoints:
+      endpoint:
+        uri: http://checkin-management/checkIn
