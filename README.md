@@ -1,1 +1,1 @@
-# cloud-config-server
+# flight-config-server
