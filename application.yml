@@ -1,0 +1,25 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: 'http://localhost:8761/eureka/'
+  instance:
+    hostname: localhost
+microservice:
+  booking-management:
+    endpoints:
+      endpoint:
+        uri: 'http://booking-management/booking'
+  checkin-management:
+    endpoints:
+      endpoint:
+        uri: 'http://checkin-management/checkIn'
+  fare-management:
+    endpoints:
+      endpoint:
+        uri: 'http://fare-management/fare'
+  flight-management:
+    endpoints:
+      endpoint:
+        uri: 'http://flight-management/flight'
