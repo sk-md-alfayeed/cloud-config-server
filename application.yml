@@ -14,7 +14,7 @@ microservice:
   checkin-management:
     endpoints:
       endpoint:
-        uri: 'http://checkin-management/checkIn'
+        uri: 'http://checkin-management/checkin'
   fare-management:
     endpoints:
       endpoint:
